@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.table-body{
+    @apply grid lg:grid-cols-9 grid-cols-6 text-center hover:bg-slate-100 hover:shadow-md
+    transition-all duration-200
+  border-b border-l border-r border-slate-200 hover:border-transparent
+}
+
+.input{
+    @apply outline-none focus:font-bold  focus:text-red-800  
+    focus:outline-none focus:border
+    focus:px-8 focus:bg-slate-50 focus:shadow-md
+}
+.btn-done{
+    @apply  py-2  px-6 ml-1 bg-green-600 text-white  shadow-md border font-bold hover:cursor-pointer hover:bg-green-800
+}
